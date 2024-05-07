@@ -27,4 +27,6 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 - Using the definition of Big $O$ we can see that $T(n) \in O(\log_{2}n)$
 - This can also be done with $\log_{5}n$ to show us that $T(n) \in O(\log_{5}n)$
 - Since we can use the change of base formula for the logarithm and pull out a constant factor it allows us to use either base within the 
-  definition of big $O$. 
+  definition of big $O$.
+
+  Reviewed repository from log-o-swilso59, and talked with the TA about correcting proof.
